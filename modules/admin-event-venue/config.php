@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'admin-event-venue',
-    '__version' => '0.0.2',
+    '__version' => '0.0.3',
     '__git' => 'git@github.com:getmim/admin-event-venue.git',
     '__license' => 'MIT',
     '__author' => [
@@ -44,7 +44,7 @@ return [
         'forms' => [
             'admin.event.edit' => [
                 'organizer' => [
-                    'label' => 'Event',
+                    'label' => 'Organizer',
                     'type' => 'select',
                     'sl-filter' => [
                         'route' => 'adminObjectFilter',
