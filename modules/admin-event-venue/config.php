@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'admin-event-venue',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/admin-event-venue.git',
     '__license' => 'MIT',
     '__author' => [
@@ -29,6 +29,9 @@ return [
             ],
             [
                 'lib-formatter' => NULL
+            ],
+            [
+                'event-venue' => NULL
             ]
         ],
         'optional' => []
